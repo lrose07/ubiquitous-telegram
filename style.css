@@ -10,3 +10,19 @@ body{
     font-size:70pt;
     color:#fff;
 }
+
+.links {
+	background-color: rgba(0,0,0,.5);
+	width: 160px;
+	text-align: center;
+	line-height: 2;
+
+}
+a {
+	color: rgba(255,255,255,.5);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgba(255,255,255,.5);
+}
