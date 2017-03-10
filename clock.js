@@ -13,7 +13,7 @@ function startTime() {
     setTimeout(function(){startTime()},500);
 }
 
-function changeBackground() {
+function changeBackground(h, m, s) {
 	var totalMins = (h * 60) + m;
 	var hue = totalMins * 0.25;
 
